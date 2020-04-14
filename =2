@@ -1,0 +1,8 @@
+
+> fsevents@1.2.4 install /Users/danw/Desktop/dev/portfolio/node_modules/watchpack/node_modules/fsevents
+> node install
+
+[fsevents] Success: "/Users/danw/Desktop/dev/portfolio/node_modules/watchpack/node_modules/fsevents/lib/binding/Release/node-v64-darwin-x64/fse.node" already installed
+Pass --update-binary to reinstall or --build-from-source to recompile
++ webpack@4.19.0
+added 140 packages from 178 contributors, updated 5 packages and moved 22 packages in 35.219s

@@ -1,0 +1,49 @@
+.transition-group {
+    position: relative;
+}
+
+.transition-container {
+    transition: opacity .3s ease-in-out;
+}
+
+.page-enter {
+    opacity: 0;
+}
+
+.port-content {
+    transition: opacity 3s ease-in-out;
+}
+
+.page-enter {
+    &.page-enter-active {
+        opacity: 1;
+        transition: opacity .5s .5s ease-in-out;
+    }
+
+    .port-content {
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+    }
+}
+
+.page-enter-done {
+    .port-content {
+        opacity: 1;
+        transition: opacity .5s .5s ease-in-out;
+    }
+}
+
+.page-exit {
+    opacity: 1;
+}
+
+.page-exit {
+    &.page-exit-active {
+        opacity: 0;
+        transition: opacity .3s ease-in;
+    }
+
+    .port-content {
+        opacity: 0;
+    }
+}

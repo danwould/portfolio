@@ -1,0 +1,46 @@
+{
+  "name": "danwould-portfolio",
+  "description": "Dan Would Portfolio",
+  "version": "1.0.0",
+  "author": "Dan Wood <danwoulddesign@gmail.com>",
+  "dependencies": {
+    "emotion": "^9.1.3",
+    "gatsby": "^2.0.0",
+    "gatsby-cli": "^1.1.58",
+    "gatsby-image": "^2.0.6",
+    "gatsby-link": "^2.0.1",
+    "gatsby-plugin-layout": "^1.0.1",
+    "gatsby-plugin-page-transitions": "^1.0.7",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.1",
+    "gatsby-plugin-sharp": "^2.0.5",
+    "gatsby-source-filesystem": "^2.0.1",
+    "gatsby-transformer-remark": "^2.1.1",
+    "gatsby-transformer-sharp": "^2.1.1",
+    "node-sass": "^4.9.3",
+    "prop-type": "0.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-emotion": "^9.2.9",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-transition-group": "^2.4.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
+    "webpack": "^4.19.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  }
+}
