@@ -1,0 +1,53 @@
+.port-item {
+  h2 {
+    grid-area: 1 / 1 / 1 / 4;
+    margin-top: 1.5rem;
+    font-size: 7rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .port-content {
+    grid-area: 2 / 1 / 4 / 3;
+    z-index: 2;
+    overflow-y: scroll;
+    height: 72%;
+    margin-top: 3rem;
+  }
+
+  .article-figure {
+    grid-area: 2 / 2 / 5 / 5;
+    margin-right: 0%;
+    position: relative;
+    padding-bottom: 3rem;
+
+    figcaption {
+      position: absolute;
+      font-family: "futura";
+      width: 10rem;
+      height: 7rem;
+      top: 15%;
+      right: 10%;
+      display: flex;
+      padding: 1rem;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFFFFF;
+      border: 1px solid;
+      text-align: center;
+      line-height: 1.5rem;
+    }
+
+    .image-wrapper {
+      height: 100%;
+      padding-top: 9rem;
+
+      img  {
+         filter: grayscale(1);
+         width: 100%;
+       }
+    }
+  }
+}
