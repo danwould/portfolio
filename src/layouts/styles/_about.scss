@@ -17,22 +17,26 @@
 	    padding-top: 3rem;
 
 	    h2  {
-	    	font-size: 8rem;
+	    	font-size: 8vw;
 	    }
     }
 
     .bottom-content {
+	    max-width: 40rem;
+	    max-height: calc(100% - 2rem);
 	    grid-column-start: 3;
 	    grid-column-end: 5;
 	    grid-row-start: 3;
 	    grid-row-end: 5;
-	    z-index: 1;
-	    padding-top: 4rem;
-	    max-height: calc(100% - 2rem);
+	    //padding-top: 4rem;
 	    overflow-y: scroll;
 	    padding-left: 2rem;
-	    background: rgba(255,255,255,.5);
-	    padding: 1rem;
+	    z-index: 1;
+
+	    p {
+	    	font-size: 1.5rem;
+	    	background-color: rgba(173, 255, 47, .3);
+	    }
     }
 
     .image-wrapper {
