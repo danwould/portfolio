@@ -1,0 +1,47 @@
+.about-page {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 5;
+    grid-row-end: 5;
+
+    // .top-content, .bottom-content {
+    // 	padding: 0 15%;
+    // }
+
+    .top-content {
+		grid-column-start: 1;
+	    grid-column-end: 3;
+	    grid-row-start: 1;
+	    grid-row-end: 3;
+	    z-index: 1;
+	    padding-top: 3rem;
+
+	    h2  {
+	    	font-size: 8rem;
+	    }
+    }
+
+    .bottom-content {
+	    grid-column-start: 3;
+	    grid-column-end: 5;
+	    grid-row-start: 3;
+	    grid-row-end: 5;
+	    z-index: 1;
+	    padding-top: 4rem;
+	    max-height: calc(100% - 2rem);
+	    overflow-y: scroll;
+	    padding-left: 2rem;
+	    background: rgba(255,255,255,.5);
+	    padding: 1rem;
+    }
+
+    .image-wrapper {
+		grid-column-start: 2;
+	    grid-row-start: 1;
+	    grid-column-end: 4;
+	    grid-row-end: 5;
+	    -webkit-filter: grayscale(1);
+	    filter: grayscale(1);
+	    padding: 0 10%;
+    }
+}

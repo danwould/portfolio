@@ -4,7 +4,7 @@ import { TransitionState } from "gatsby-plugin-transition-link"
 
 const WorkPage = ({ children, transitionStatus, entry, exit}) => (
         <Layout>
-            <article className={`content-grid work-page ${transitionStatus}`}>
+            <article className={`content-grid work-page-content ${transitionStatus}`}>
                 <section className="portfolio-container">
                     <h2>Work Landing</h2>
                     <p>Welcome to your new Gatsby site.</p>
