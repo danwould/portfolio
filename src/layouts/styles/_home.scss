@@ -17,9 +17,10 @@
     font-size: 2vw;
     font-weight: 100;
     background-color: rgba(173, 255, 47, .3);
+    max-width: 94%;
 
     &:nth-child(3){
-      max-width: 91%;
+      max-width: 81%;
     }
 
   }

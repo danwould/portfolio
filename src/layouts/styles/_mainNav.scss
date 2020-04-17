@@ -28,10 +28,11 @@
 .work-page {
   .nav--main {
     li {
-    &:nth-child(2) {
-      a {
-        background-color: greenyellow;
+      &:nth-child(2) {
+        a {
+          background-color: greenyellow;
+        }
       }
-    }
+    } 
   }
 }
