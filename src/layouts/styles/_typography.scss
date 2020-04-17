@@ -33,33 +33,38 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: greenyellow;
+    color: $secondary-color;
     text-decoration: underline;
   }
 }
 
+
 .side-text {
   font-family: $futura-stack;
-  font-size: 18vh;
   font-style: italic;
-  -webkit-text-stroke: 5px greenyellow;
-  text-stroke: 5px greenyellow;
-  color: rgba(0, 0, 0, 0);
-  writing-mode: vertical-rl;
-  transform: rotate(183deg);
   text-transform: uppercase;
   z-index: 3;
-  grid-column-start: 4;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  margin-left: 20%;
-  max-height: 121vh;
-  //transition: transform .5s ease-in, font-size .5s ease-in;
+}
 
-  span {
-    display: block;
-    font-size: 30vh;
+.home-page {
+  .side-text {
+    font-size: 18vh;
+    -webkit-text-stroke: 5px $secondary-color;
+    text-stroke: 5px $secondary-color;
+    color: rgba(0, 0, 0, 0);
+    writing-mode: vertical-rl;
+    transform: rotate(197deg);
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin-left: 20%;
+    max-height: 121vh;
+
+    span {
+      display: block;
+      font-size: 30vh;
+    }
   }
 }
 
@@ -70,14 +75,8 @@ div[class^="work-"], .work, .about, .contact, .inner-page {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    transform: rotate(270deg);
-    text-align: right;
-    -webkit-text-stroke: 0px;
-    text-stroke: 0px;
-    color: greenyellow;
-    margin-top: 0;
-    margin-left: 11rem;
-    height: 11rem;
+    color: $secondary-color;
+    margin: 1rem 0 0 auto;
 
     span {
       display: inline;

@@ -20,7 +20,7 @@
     }
 
     .active-page-link {
-      background-color: greenyellow;
+      background-color: $secondary-color;
     }
   }
 }
@@ -30,7 +30,7 @@
     li {
       &:nth-child(2) {
         a {
-          background-color: greenyellow;
+          background-color: $secondary-color;
         }
       }
     } 
