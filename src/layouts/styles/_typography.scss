@@ -1,3 +1,5 @@
+$futura-stack: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;;
+
 html {
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
@@ -42,7 +44,7 @@ a {
   transform: rotate(183deg);
   -webkit-text-stroke: 5px greenyellow;
   text-stroke: 5px greenyellow;
-  font-size: 19vh;
+  font-size: 18vh;
   color: rgba(0, 0, 0, 0);
   font-style: italic;
   text-transform: uppercase;
@@ -52,11 +54,12 @@ a {
   grid-row-start: 1;
   grid-row-end: 5;
   margin-left: 20%;
-  max-height: 100vh;
+  max-height: 121vh;
   transition: transform .5s ease-in, font-size .5s ease-in;
 
   span {
     display: block;
+    font-size: 30vh;
   }
 }
 
@@ -78,6 +81,7 @@ div[class^="work-"], .work, .about, .contact, .inner-page {
 
     span {
       display: inline;
+      font-size: inherit;
     }
   }
 }

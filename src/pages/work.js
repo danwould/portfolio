@@ -9,6 +9,7 @@ const WorkPage = ({ children, transitionStatus, entry, exit}) => (
                     <h2>Work Landing</h2>
                     <p>Welcome to your new Gatsby site.</p>
                     <p>Now go build something great.</p>
+                     <div className="side-text">Another <span>page test</span></div>
                 </section>
             </article>
         </Layout>

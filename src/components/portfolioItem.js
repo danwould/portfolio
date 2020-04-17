@@ -13,7 +13,6 @@ class PortfolioTemplate extends React.Component {
     }
 
     render() {
-
         const post = this.props.data.markdownRemark;
         const transitionStatus = this.props.transitionStatus;
 

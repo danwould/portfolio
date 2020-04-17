@@ -9,7 +9,7 @@ const IndexPage = ({ children, transitionStatus, entry, exit}) => (
           <article className={`home-page ${transitionStatus}`}>
             <section className="nested-grid">
                 <div className="intro-text content-contatiner">
-                    <h2 className>Something more sentence like here.</h2>
+                    <h2 className>Whale, Ahoi ahoi, whalecome!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                         Ut enim ad minim veniam, quis.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
@@ -18,7 +18,7 @@ const IndexPage = ({ children, transitionStatus, entry, exit}) => (
                 </div>
 
                 <div className="image-wrapper"></div>
-                <div className="side-text">Another <span>page test</span></div>
+                <div className="side-text">DANWOULD <span>DESIGN</span></div>
             </section>
           </article>
     </Layout>

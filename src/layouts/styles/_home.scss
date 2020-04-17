@@ -1,12 +1,25 @@
 .home-page {
   grid-column-start: 1;
 
-  p {
-    max-width: 80%;
+  .content-contatiner { 
+    grid-row-start: 2;
+    grid-column-end: 3;
+    margin-top: 7.5rem;
   }
 
-  .intro-text {
-    margin-top: 1.5rem;
+  h2  {
+    margin-bottom: 4.6rem;
+  }
+
+  p {
+    font-family: $futura-stack;
+    font-weight: 100;
+    background-color: rgba(173, 255, 47, .3);
+
+    &:nth-child(3){
+      max-width: 91%;
+    }
+
   }
 
   .header--main {
@@ -45,9 +58,10 @@
     transform: scaleX(-1);
     grid-column-start: 2;
     grid-column-end: 6;
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: 5;
     margin-right: 0%;
+    height: calc(100% - .5rem);
 
     &:before, &:after {
       background-image: radial-gradient(rgba(0, 0, 0, 0.7) 50%, transparent 50%);
