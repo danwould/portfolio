@@ -17,7 +17,7 @@ class PortfolioTemplate extends React.Component {
 
     render () {
         return (
-            <div className={"container--grid inner-page"}>
+            <div className={"container--grid inner-page work-page"}>
                 <Helmet
                     title="Dan Would Design"
                     meta={[

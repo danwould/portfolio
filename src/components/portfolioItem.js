@@ -35,7 +35,7 @@ class PortfolioTemplate extends React.Component {
                                 next={post.frontmatter.next}
                                 nextTitle={post.frontmatter.nextTitle} 
                             />
-                            <div class="callouts">
+                            <div className="callouts">
                                 <ul>
                                     {post.frontmatter.tags.map(tag => (
                                       <li key={tag}>

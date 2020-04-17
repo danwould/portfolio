@@ -14,5 +14,24 @@
       font-size: .8rem;
       text-transform: lowercase;
     }
+
+    a {
+      padding: .25rem;
+    }
+
+    .active-page-link {
+      background-color: greenyellow;
+    }
+  }
+}
+
+.work-page {
+  .nav--main {
+    li {
+    &:nth-child(2) {
+      a {
+        background-color: greenyellow;
+      }
+    }
   }
 }
