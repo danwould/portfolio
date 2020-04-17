@@ -5,7 +5,7 @@ html {
 }
 
 h1, h2 {
-  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  font-family: $futura-stack;
 }
 
 h1 {
@@ -39,14 +39,14 @@ a {
 }
 
 .side-text {
-  @extend h2;
-  writing-mode: vertical-rl;
-  transform: rotate(183deg);
+  font-family: $futura-stack;
+  font-size: 18vh;
+  font-style: italic;
   -webkit-text-stroke: 5px greenyellow;
   text-stroke: 5px greenyellow;
-  font-size: 18vh;
   color: rgba(0, 0, 0, 0);
-  font-style: italic;
+  writing-mode: vertical-rl;
+  transform: rotate(183deg);
   text-transform: uppercase;
   z-index: 3;
   grid-column-start: 4;
@@ -55,7 +55,7 @@ a {
   grid-row-end: 5;
   margin-left: 20%;
   max-height: 121vh;
-  transition: transform .5s ease-in, font-size .5s ease-in;
+  //transition: transform .5s ease-in, font-size .5s ease-in;
 
   span {
     display: block;
