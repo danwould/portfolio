@@ -1,26 +1,93 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import TransitionLink from "gatsby-plugin-transition-link"
 
 const PortfolioNav = () => (
   <aside className="nav--portfolio">
       <ul>
           <li>
-              <Link to="/work/deltaco/" activeClassName="active-page-link">Del Taco</Link>
+              <TransitionLink 
+                to="/work/deltaco/" 
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                Del Taco
+              </TransitionLink>
           </li>
           <li>
-              <Link to="/work/zenpop/" activeClassName="active-page-link">ZenPop</Link>
+              <TransitionLink 
+                to="/work/zenpop/" 
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                ZenPop
+              </TransitionLink>
           </li>
           <li>
-              <Link to="/work/apple/" activeClassName="active-page-link">Apple</Link>
+              <TransitionLink 
+                to="/work/apple/" 
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                Apple
+              </TransitionLink>
           </li>
           <li>
-              <Link to="/work/sprokkit/" activeClassName="active-page-link">Sprokkit</Link>
+              <TransitionLink 
+                to="/work/sprokkit/"
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                Sprokkit
+              </TransitionLink>
           </li>
           <li>
-              <Link to="/work/deltaco/" activeClassName="active-page-link">Item 5</Link>
+              <TransitionLink 
+                to="/work/deltaco/"
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                Pawn Creative
+              </TransitionLink>
           </li>
           <li>
-              <Link to="/work/zenpop/" activeClassName="active-page-link">Item 6</Link>
+              <TransitionLink 
+                to="/work/zenpop/"
+                activeClassName="active-page-link"
+                exit={{
+                    length: .25
+                }}
+                entry={{
+                    length: .125
+                }}
+              >
+                Misc
+              </TransitionLink>
           </li>
       </ul>
   </aside>

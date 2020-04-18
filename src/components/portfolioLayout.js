@@ -17,7 +17,7 @@ class PortfolioTemplate extends React.Component {
 
     render () {
         return (
-            <div className={"container--grid inner-page work-page"}>
+            <div className={"container--grid inner-page work-page-item"}>
                 <Helmet
                     title="Dan Would Design"
                     meta={[
@@ -32,7 +32,6 @@ class PortfolioTemplate extends React.Component {
                     {this.props.children}
                 </main>
 
-                {/*Potfolio Nav maaaaaay become a picture switcher */}
                 <PortfolioNav />
                 <SocialNav />
                 <Footer />

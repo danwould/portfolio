@@ -36,3 +36,11 @@
     } 
   }
 }
+
+.nav--social {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: footer-end;
+    align-self: end;
+}

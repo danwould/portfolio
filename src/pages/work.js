@@ -1,14 +1,17 @@
 import React from 'react'
-import Layout from "../components/portfolioLayout"
+import Layout from "../components/layout"
 import { TransitionState } from "gatsby-plugin-transition-link"
+import PortfolioNav from '../components/portfolioNav.js'
 
 const WorkPage = ({ children, transitionStatus, entry, exit}) => (
         <Layout>
-            <article className={`content-grid work-page-content ${transitionStatus}`}>
-                <section className="portfolio-container">
-                    <h2>Work Landing</h2>
-                    <p>Welcome to your new Gatsby site.</p>
-                    <p>Now go build something great.</p>
+            <article className={`work-page-content work-page work ${transitionStatus}`}>
+                <section className="portfolio-container nested-grid">
+                    <div className="intro-content">
+                        <h2>Web</h2>
+                        <p>Click them boxes for more info on some web projects I've worked on.</p>
+                    </div>
+                    <PortfolioNav />
                      <div className="side-text">Another <span>page test</span></div>
                 </section>
             </article>
